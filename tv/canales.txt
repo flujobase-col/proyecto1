@@ -1,0 +1,50 @@
+# ============================================================================
+#  canales.txt — LISTA EDITABLE DE CANALES PARA PROBAR
+# ============================================================================
+#  Formato de cada linea (una por canal):
+#
+#      Nombre del canal|URL del stream
+#
+#  - El separador es UNA barra vertical (|).
+#  - Las lineas que empiezan con # son comentarios (se ignoran).
+#  - Puedes poner CUALQUIER URL, pero se recomienda usar la URL "maestra"
+#    del canal oficial (la que termina en .m3u8). Los scripts eligen SOLOS
+#    la variante de menor bitrate (la mas fluida para internet lenta).
+#  - Para anadir o quitar canales: edita este archivo con el Bloc de notas
+#    (Windows) o nano (Linux) y vuelve a ejecutar probar-tv.
+#  - IMPORTANTE LEGAL: usa solo canales gratuitos y autorizados.
+#    Los canales "pirata" se caen a cada rato (no fluyen) y no son legales.
+#
+#  Lista inicial (canales de noticias oficiales/gratuitos):
+# ============================================================================
+
+# ---------- INGLES (para practicar) ----------
+1 ING DW English|https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
+2 ING CGTN News|https://news.cgtn.com/resource/live/english/cgtn-news.m3u8
+3 ING France 24 English HD|https://static.france24.com/live/F24_EN_HI_HLS/live_web.m3u8
+4 ING France 24 English SD|https://static.france24.com/live/F24_EN_LO_HLS/live_web.m3u8
+5 ING Al Jazeera English|https://live-hls-apps-aje-fa.getaj.net/AJE/index.m3u8
+6 ING Al Jazeera (web)|https://live-hls-web-aje.getaj.net/AJE/index.m3u8
+7 ING VOA News|https://voa-live.akamaized.net/hls/live/2033598/VOA_Live/index.m3u8
+8 ING TRT World|https://tv-trtworld.live.trt.com.tr/master.m3u8
+9 ING NHK World-Japan|https://nhkwlive-ojp.akamaized.net/hls/live/2003458/nhkwlive-ojp/index.m3u8
+10 ING Sky News UK|https://skynews-stream17.akamaized.net/hls/live/2002660/skynews710p/index.m3u8
+11 ING Sky News Australia|https://skynewsau-live.akamaized.net/hls/live/2002689/skynewsau-extra1/master.m3u8
+12 ING CBS News 24/7|https://cbsn-us.cbsnstream.cbsnews.com/out/v1/55a8c1f0f2914d6f9e3a44bfad5fc4f1/index.m3u8
+13 ING Arirang World|https://amdlive-ch01-ctndcom.akamaized.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8
+
+# ---------- ESPANOL / LATINO (para comparar culturas) ----------
+14 ESP DW Español|https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream106/index.m3u8
+15 ESP France 24 Español HD|https://static.france24.com/live/F24_ES_HI_HLS/live_web.m3u8
+16 ESP France 24 Español SD|https://static.france24.com/live/F24_ES_LO_HLS/live_web.m3u8
+17 ESP CGTN Español|https://news.cgtn.com/resource/live/espanol/cgtn-espanol.m3u8
+18 ESP TeleSUR (Venezuela)|https://streaming.telesurtv.net/telesur/telesur.m3u8
+19 ESP RTVE 24h (España)|https://rtvehls.rtve.es/24h/index.m3u8
+20 ESP Señal Colombia|https://streaming.rtvc.gov.co/senalcolombia/smil:senalcolombia.smil/playlist.m3u8
+21 ESP TV Perú|https://mdstrm.com/live-stream/10e65368603e4a79ba140098995876cb.m3u8
+22 ESP HispaTV|https://hispavision.mp.lura.live/hls/mp/playlist.m3u8
+
+# ---------- OTROS IDIOMAS (cultura extra) ----------
+23 FRA France 24 Français HD|https://static.france24.com/live/F24_FR_HI_HLS/live_web.m3u8
+24 GER DW Deutsch|https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream104/index.m3u8
+25 POR TV Brasil (Bonús)|https://tvbrasil-live.cdn.ntcdn.net/tvbrasil/smil:tvbrasil_1.smil/playlist.m3u8
